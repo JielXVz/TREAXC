@@ -5,7 +5,8 @@ import threading
 import is
 import codecs, sys
 
-print('''
+os.system("clear ") 
+print('''\033[94
     
 ip = str(input("  Ip:"))
 port = int(input(" Port:"))
