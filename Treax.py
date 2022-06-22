@@ -2,7 +2,7 @@
 import random
 import socket
 import threading
-import is
+import os
 import codecs, sys
 
 os.system("clear ") 
